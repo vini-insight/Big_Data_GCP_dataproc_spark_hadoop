@@ -6,4 +6,5 @@ if __name__ == "__main__":
     wordCounts = words.map(lambda word: (word, 1)).reduceByKey(lambda a,b:a +b).sortBy(lambda a:a[1], ascending=False)
     wordCounts.saveAsTextFile("gs://{NOME_DO_SEU_BUCKET}/resultado")
     
-#     OBSERVAÇÃO: por questões de segurança o nome do bucket foi omitido. para este código funcionar sem erros, tem que substituir em todos os lugares onde se encontra escrito {NOME_DO_SEU_BUCKET}
+#     OBSERVAÇÃO: por questões de segurança o nome do bucket foi omitido.
+#     para este código funcionar sem erros, tem que substituir em todos os lugares onde se encontra escrito {NOME_DO_SEU_BUCKET}
