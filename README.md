@@ -48,4 +48,4 @@ NOTE: For security reasons the bucket name has been omitted.
 
 -> how to open just to view type cat + filename.extension:
   
-     cat filename.extension
+     cat file_name.extension
