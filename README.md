@@ -38,15 +38,14 @@ NOTE: For security reasons the bucket name has been omitted.
 
 -> If the Job shows an "Interrupt WARN", just ignore it. There is a known bug in Hadoop. This does not impact processing.
 
--> to open files for editing use the command:
+-> to open files for editing use the command vim + file_name.extension:
 
-     vim + file_name.extension
+     vim file_name.extension
 
--> to save file in GCP Shell:
+-> to save file in GCP Shell type colon + wq! + ENTER:
 
-     type colon + wq! + ENTER
-     like this :wq!ENTER
+     :wq! + ENTER     
 
--> how to open just to view:
+-> how to open just to view type cat + filename.extension:
   
-     cat + filename.extension
+     cat filename.extension
